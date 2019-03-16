@@ -5,4 +5,5 @@ docker run -d -p 3000:3000 --name Abathur -v /home/docker/:/root -e FLASK_APP=./
 #-v volume
 #-e env
 #-w work dir
-#bash -c :run the bash command 
+#bash -c :run the bash command
+#check with :curl $(docker-machine ip Char):3000
